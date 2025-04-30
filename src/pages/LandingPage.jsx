@@ -18,28 +18,28 @@ const LandingPage = () => {
             name: "Lavender Dreams",
             description: "Soothing lavender scent to calm your senses",
             price: 14.99,
-            image: {lavender}
+            image: lavender
         },
         {
             id: 2,
             name: "Woodland Retreat",
             description: "Earthy pine and cedar forest fragrance",
             price: 16.99,
-            image:{woodland},
+            image:woodland,
         },
         {
             id: 3,
             name: "Coastal Breeze",
             description: "Fresh ocean and sea salt aromatherapy",
             price: 15.99,
-            image: {breeze}
+            image: breeze,
         },
         {
             id: 4,
             name: "Warm Vanilla Comfort",
             description: "Rich, sweet vanilla bean essence",
             price: 13.99,
-            image: {vanilla}
+            image: vanilla,
         }
     ];
 

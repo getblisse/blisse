@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import "../components/styles/Navbar.css";
 import React, { useState } from 'react';
 import { useNavigate } from "react-router-dom";
+import logo from "../assets/removelogo.png"
 
 const Navbar = () => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -24,7 +25,7 @@ const Navbar = () => {
             <div className="nav-container">
             <div className="logo-container">
                     <img 
-                        src="./src/assets/removelogo.png"
+                        src={logo}
                         alt='logo'
                         className='navbar-logo'
                     />
