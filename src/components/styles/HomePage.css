@@ -355,9 +355,10 @@ body {
 }
 
 /* ===== Responsive Styling ===== */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .hero {
     padding: 3rem 1rem;
+    max-width: 200px;
   }
 
   .hero-title {
