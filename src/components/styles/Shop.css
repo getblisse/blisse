@@ -56,5 +56,34 @@
   color: #444;
 }
 
+/* Responsive Design */
+@media (max-width: 768px) {
+  .shop-container {
+    padding: 1.5rem;
+  }
 
+  .shop-hero h1 {
+    font-size: 2rem;
+  }
 
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .category-card img {
+    height: 160px;
+  }
+}
